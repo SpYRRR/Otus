@@ -1,42 +1,4 @@
-Skip to content
-SpYRRR
-/
-Otus
 
-Type / to search
-Command palette
-Create new...
-Issues
-Pull requests
-You have no unread notifications
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Commit
-Browse the repository at this point in the history
-LVM_lesson_1
- main
-@SpYRRR
-SpYRRR committed 1 minute ago 
-1 parent c00a4f9
-commit 16e0465
-Showing 1 changed file with 300 additions and 7 deletions.
- 307 changes: 300 additions & 7 deletions307  
-README.md
-@@ -1,7 +1,300 @@
-Vagrant-стенд для обновления ядра и создания образа системы
-Описание домашнего задания
-1) Обновить ядро ОС из репозитория ELRepo
-2) Создать Vagrant box c помощью Packer
-3) Загрузить Vagrant box в Vagrant Cloud
-Про какие команды идет речь дальше в задании не понял
-Я нашел оригинал задания, там все нагляднее, почему не прокопипастили? неделю целую убил. И еще, хотелось бы на лекциях получать материал, который бьудет в дз, а не гуглить его.
 root@spy-X99:/home/spy/test_vm# vagrant ssh
 [vagrant@lvm ~]$ sudo su
 [root@lvm vagrant]# pvcreate /dev/sdb
